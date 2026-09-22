@@ -25,7 +25,15 @@ body {
 .header-part {
   width: 100%;
   height: 580px;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.601),
+      rgba(0, 0, 0, 0.601),
+      rgba(0, 0, 0, 0.601)
+    ),
+    url(./img/a3e9876cb60dc8214f8bd80c31a0cc3c8ae8a3a9\ \(1\).jpg);
+  background-position: 60px;
+  background-size: cover;
   text-align: center;
 }
 .nav-bar-wrapper {
@@ -69,26 +77,55 @@ body {
   width: 100%;
   height: 40px;
 }
-.zapisatsiya-na-premier{
+.zapisatsiya-na-premier {
   width: 100%;
   height: 800px;
-  border: solid white;
   background-color: var(--color-kukimtir);
 }
-.rasm-opa{
-  transform: translate(0,100px);
+.rasm-opa {
+  transform: translate(0, 100px);
   max-width: 350px;
   width: 100%;
 }
-.rasm-opacha{
-  transform: translate(185px,300px);
+.rasm-opacha {
+  transform: translate(185px, 300px);
   max-width: 650px;
   width: 100%;
 }
-.yozuvcha-wrapppppepr{
-  max-width: 440px;
+.yozuvcha-wrapppppepr {
+  max-width: 480px;
   width: 100%;
   height: 149px;
-  border: solid white;
-  transform: translate(500px,-400px);
+  color: white;
+  transform: translate(550px, -400px);
+  border-right: 3px green solid;
+}
+.button-home-page-bgc-transparent-button-in-side-birbalo-birbalo-lalalalal {
+  max-width: 220px;
+  display: block;
+  margin-top: 20px;
+  background-color: transparent;
+  border: solid white 1px;
+  color: white;
+  border-radius: 41px;
+  width: 100%;
+  height: 40px;
+}
+.kattaroq-emas-kattttttttttttttttttttttttttttttttttttttttttttttttttta-div-da-buu {
+  width: 100%;
+  height: 2300px;
+  background-color: #D7D8D8;
+  padding: 20px;
+}
+.lichnie-kariesa{
+  width: 100%;
+  height: 230px;
+  border: solid red ;
+}
+.text-big{ 
+  font-size: 30px;
+  max-width: 200px;
+  width: 100%;
+  transform: translate(70px,20px);
+  text-transform: uppercase;
 }
