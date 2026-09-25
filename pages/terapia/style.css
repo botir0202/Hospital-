@@ -6,12 +6,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
-  font-weight: 300;
 }
 body {
-  background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(32, 36, 40, 1);
 }
 .ota-boshi-wrapper-div {
   width: 100%;
@@ -19,8 +16,12 @@ body {
 .all-element-wrapper-second-father-wrapper-div {
   max-width: 1200px;
   width: 100%;
-  border: solid;
   margin: 0 auto;
+}
+.button-menu-barcha-branchlarni-ulaydigan-kuchli-button{
+  background-color: transparent;
+  border: none;
+  color: white;
 }
 .header-part {
   width: 100%;
@@ -32,7 +33,7 @@ body {
       rgba(0, 0, 0, 0.601)
     ),
     url(./img/a3e9876cb60dc8214f8bd80c31a0cc3c8ae8a3a9\ \(1\).jpg);
-  background-position: 60px;
+  background-position: center;
   background-size: cover;
   text-align: center;
 }
@@ -64,6 +65,7 @@ body {
   font-size: 50px;
   margin-top: 150px;
   color: white;
+  font-weight: 100;
   text-transform: uppercase;
   text-align: center;
 }
@@ -163,8 +165,141 @@ body {
   width: 100%;
   translate: 0 -300px;
 }
-.stamatolog-opaaaaaaaa{
+.stamatolog-opaaaaaaaa {
   max-width: 600px;
   width: 100%;
   translate: 60px 0;
+}
+.footer-part {
+  width: 100%;
+  background-color: rgba(32, 36, 40, 1);
+  padding: 100px;
+  color: white;
+  h1 {
+    text-transform: uppercase;
+  }
+  div {
+    padding: 15px;
+    i {
+      float: right;
+    }
+    border-bottom: solid #919294 2px;
+    border-top: solid #919294 2px;
+  }
+  .logo2-yangilanish {
+    display: block;
+    margin: 40px auto;
+    max-width: 150px;
+    width: 100%;
+  }
+  .oxirgi-footer-p {
+    font-size: 20px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 1143.9px) {
+  .rasm-opacha {
+    max-width: 530px;
+    width: 100%;
+    translate: -180px -90px;
+  }
+  .etap-ma-etaaaaap {
+    translate: 420px 200px;
+    max-width: 400px;
+  }
+  .yozuvcha-wrapppppepr {
+    translate: -180px 0;
+  }
+  .tishizga-qaramang-ulib-qosin-bu-tishchangiz-e {
+    translate: 0 10px;
+    max-width: 250px;
+    width: 100%;
+  }
+  .stamatolog-opaaaaaaaa {
+    translate: 0 -50px;
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1053.9px) {
+  .p-dabu {
+    transform: translate(-200px, 0);
+  }
+}
+@media screen and (max-width: 872.9px) {
+  .opachaa {
+    max-width: 300px;
+    width: 100%;
+  }
+  .p-dabu {
+    max-width: 250px;
+    width: 100%;
+    transform: translate(200px, -70px);
+  }
+  .etap-ma-etaaaaap {
+    transform: translate(-90px, 10px);
+  }
+  .yozuvcha-wrapppppepr {
+    max-width: 300px;
+    width: 100%;
+    translate: -190px 200px;
+  }
+  .rasm-opacha {
+    display: none;
+  }
+  .p-dabu {
+    translate: 190px 10px;
+  }
+}
+@media screen and (max-width: 764.9px) {
+  .yozuvcha-wrapppppepr {
+    max-width: 300px;
+    width: 100%;
+    height: 165px;
+  }
+  .etap-ma-etaaaaap {
+    translate: 100px 0;
+  }
+  .opachaa {
+    display: none;
+  }
+  .stamatolog-opaaaaaaaa {
+    translate: 0 -10px;
+  }
+  .uzuuuuuuuuuuuuuun-yozuvni-yozuvni-urab-turuv-chi-div-di-jaydarisi-manashunaqa-buladi {
+    max-width: 300px;
+    width: 100%;
+    height: fit-content;
+    translate: 300px -90px;
+  }
+}
+@media screen and (max-width: 691px) {
+  .p-dabu {
+    transform: translate(90px, -60px);
+  }
+  .yozuvcha-wrapppppepr {
+    translate: -545px 500px;
+  }
+  .uzuuuuuuuuuuuuuun-yozuvni-yozuvni-urab-turuv-chi-div-di-jaydarisi-manashunaqa-buladi {
+    translate: 0;
+  }
+}
+@media screen and (max-width: 577px) {
+  .lichnie-kariesa {
+    height: 300px;
+  }
+  .p-dabu {
+    translate: -80px 90px;
+  }
+  .text-big {
+    translate: -60px;
+  }
+}
+@media screen and (max-width: 437px) {
+  .tishizga-qaramang-ulib-qosin-bu-tishchangiz-e {
+    display: none;
+  }
 }
