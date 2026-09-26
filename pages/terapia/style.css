@@ -18,7 +18,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-.button-menu-barcha-branchlarni-ulaydigan-kuchli-button{
+.button-menu-barcha-branchlarni-ulaydigan-kuchli-button {
   background-color: transparent;
   border: none;
   color: white;
@@ -199,6 +199,74 @@ body {
     line-height: 40px;
   }
 }
+.uslugi-qismida-bu {
+  max-width: 500px;
+  width: 100%;
+  position: absolute;
+  height: 300px;
+  z-index: 66;
+  display: none;
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+  }
+}
+.jujujuju {
+  max-width: 210px;
+  width: 100%;
+  position: absolute;
+  height: 333px;
+  background-color: steelblue;
+  z-index: 99;
+  list-style: none;
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 90px;
+  padding-top: 70px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    rgba(47, 53, 59, 0.96),
+    rgba(169, 169, 169, 1)
+  );
+  border-radius: 20px 0 0 20px;
+  li a{
+    color: white;
+    text-decoration: none;
+  }
+  li a:hover{
+    color: rgba(245, 208, 156, 1);
+  }
+}
+.kkkuku {
+  max-width: 600px;
+  width: 100%;
+  filter: brightness(60%);
+}
+.button-menu-barcha-branchlarni-ulaydigan-kuchli-button:focus
+  ~ .uslugi-qismida-bu {
+  display: block;
+  transition: 200ms;
+}
+.uslugi-qismida-bu:hover {
+  display: block;
+}
+
+.hubirls {
+  max-width: 600px;
+  width: 100%;
+  position: absolute;
+  display: block;
+  height: 300px;
+  z-index: 96;
+  background-color: red;
+  /* display: none; */
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+  }
+}
+
 @media screen and (max-width: 1143.9px) {
   .rasm-opacha {
     max-width: 530px;
