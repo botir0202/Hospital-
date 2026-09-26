@@ -398,3 +398,184 @@ body {
 .img11 {
   left: 162px;
 }
+body {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ota-boshi-wrapper-div {
+  width: 100%;
+}
+.all-element-wrapper-second-father-wrapper-div {
+  max-width: 1200px;
+  width: 100%;
+  border: solid;
+  margin: 0 auto;
+}
+.header-part {
+  width: 100%;
+  height: 580px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+  text-align: center;
+}
+.nav-bar-wrapper {
+  width: 100%;
+  height: 60px;
+  background: rgba(30, 30, 30, 0.698);
+  display: flex;
+  align-items: center;
+}
+.menu-ul {
+  width: 98%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  li select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    option {
+      color: black;
+    }
+  }
+}
+.home-page-header-text-terapia {
+  font-size: 50px;
+  margin-top: 150px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.button-home-page {
+  max-width: 220px;
+  display: block;
+  margin: 40px auto;
+  background-color: white;
+  border: none;
+  border-radius: 41px;
+  width: 100%;
+  height: 40px;
+}
+
+@media (max-width: 480px) {
+  .home-page-header-text-terapia {
+    font-size: 26px;
+    margin-top: 70px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    padding: 30px 16px;
+  }
+  .menu-ul {
+    justify-content: center;
+    font-size: 14px;
+  }
+}
+@media (max-width: 860px) {
+
+  .box1, .box2, .box3, .box4 {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .box1 > *, .box2 > *, .box3 > *, .box4 > * {
+    position: static;
+  }
+
+  .p1, .p2, .p3, .p4, .p5, .p6, .ul1 {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .ul1 { padding-left: 20px; }
+  .ul1 li { margin-bottom: 6px; }
+
+  .line1, .line2, .line3 { width: 44px; }
+
+  .btn1, .btn2, .btn3 {
+    width: 100%;
+    max-width: 240px;
+    height: 42px;
+    align-self: flex-start;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6 {
+    width: 100%;
+    height: auto;
+    max-height: 380px;
+  }
+
+  .h1 { font-size: 20px; }
+  .ul2 { width: 100%; }
+  .p7 { font-size: 14px; height: auto; line-height: 1.4; padding: 14px 24px 14px 0; }
+  .p8 { width: 100%; font-size: 12.5px; line-height: 1.5; }
+  .arr { top: 22px; }
+  .ul2 li.open .arr { top: 26px; }
+
+  .img7 { margin: 10px auto; }
+  .line4 { width: 100%; }
+
+  .nav1 div {
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    height: auto;
+    line-height: 1.8;
+  }
+
+  .header-part { height: auto; min-height: 420px; padding-bottom: 40px; }
+  .nav-bar-wrapper { height: 60px; }
+
+  .home-page-header-text-terapia {
+    font-size: 34px;
+    margin-top: 90px;
+    padding: 0 15px;
+  }
+
+  .zapisatsiya-na-premier { height: auto; min-height: 500px; }
+}
+
+@media (max-width: 480px) {
+  .home-page-header-text-terapia { font-size: 26px; margin-top: 70px; }
+  .box1, .box2, .box3, .box4 { padding: 30px 16px; }
+}
+@media (max-width: 600px) {
+ 
+  .header {
+    padding: 15px 20px;
+  }
+ 
+  .menu-drop summary span:last-child,
+  .lang-drop summary span:first-child {
+    display: none;
+  }
+ 
+  .logo img {
+    height: 30px;
+  }
+ 
+  .hero-title {
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
+ 
+  .hero-btn {
+    padding: 14px 28px;
+    font-size: 13px;
+  }
+ 
+  .about {
+    padding: 40px 20px;
+  }
+}
+ 
+
