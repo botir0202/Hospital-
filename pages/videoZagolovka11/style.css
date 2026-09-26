@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background: rgba(0, 0, 0, 0.75);
+  div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      width: 24px;
+    }
+  }
+}
+.header-div {
+  max-width: 100%;
+  background-image: url("./img/bce0cb23a8f38e3e6d30d968fd51ced58b94bf31.jpg");
+  min-height: 200px;
+  background-size: cover;
+  max-height: 1000px;
+}
+.slojnaya {
+  font-size: 46px;
+  text-align: center;
+  margin-top: 250px;
+}
+.zapisatsiya {
+  width: 330px;
+  border-radius: 28px;
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 16px 22px;
+  margin-top: 50px;
+  background: white;
+  color: #777c88;
+}
+.chevrin {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
