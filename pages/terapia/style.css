@@ -200,19 +200,15 @@ body {
   }
 }
 .uslugi-qismida-bu {
-  max-width: 500px;
+  max-width: 300px;
   width: 100%;
   position: absolute;
   height: 300px;
   z-index: 66;
   display: none;
   border-radius: 20px;
-  img {
-    border-radius: 20px;
-  }
 }
 .jujujuju {
-  max-width: 210px;
   width: 100%;
   position: absolute;
   height: 333px;
@@ -220,16 +216,15 @@ body {
   z-index: 99;
   list-style: none;
   font-size: 14px;
-  line-height: 40px;
-  padding-left: 90px;
-  padding-top: 70px;
+  line-height: 30px;
+padding: 40px;
   text-transform: uppercase;
   background-image: linear-gradient(
     to right,
     rgba(47, 53, 59, 0.96),
     rgba(169, 169, 169, 1)
   );
-  border-radius: 20px 0 0 20px;
+  border-radius: 20px;
   li a{
     color: white;
     text-decoration: none;
